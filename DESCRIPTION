@@ -1,10 +1,11 @@
 Package: bmicalc
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.1.9000
+Title: Calculating Weight Percentiles According to the CDC
+Version: 0.0.1
 Authors@R: 
     person("Michael", "DeWitt", , "medewitt@wakehealth.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8940-1967"))
-Description: What the package does (one paragraph).
+Description: Given sex, age, and weight, this package will return the interpolated percentiles
+    based on the CDC growth curves.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -13,6 +14,7 @@ Depends:
     R (>= 2.10)
 LazyData: true
 Suggests: 
+    covr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 

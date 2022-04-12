@@ -4,9 +4,9 @@
 \name{bmicalc-package}
 \alias{bmicalc}
 \alias{bmicalc-package}
-\title{bmicalc: What the Package Does (One Line, Title Case)}
+\title{bmicalc: Calculating Weight Percentiles According to the CDC}
 \description{
-What the package does (one paragraph).
+Given sex, age, and weight, this package will return the interpolated percentiles based on the CDC growth curves.
 }
 \author{
 \strong{Maintainer}: Michael DeWitt \email{medewitt@wakehealth.edu} (\href{https://orcid.org/0000-0001-8940-1967}{ORCID})

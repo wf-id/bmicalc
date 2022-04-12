@@ -1,3 +1,5 @@
+#' @importFrom stats approxfun
+#' @importFrom utils head
 #' @keywords internal
 "_PACKAGE"
 

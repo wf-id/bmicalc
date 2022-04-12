@@ -4,7 +4,7 @@
 #'
 #'
 #'
-#' @format a data frame with 4608 rows and 6 varables
+#' @format a data frame with 4608 rows and 6 vairables
 #' \describe{
 #'   \item{sex_dsc}{string, sex, one of Male or Female}
 #'   \item{age_in_month}{numeric, age in months}
