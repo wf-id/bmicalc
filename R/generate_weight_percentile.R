@@ -10,7 +10,7 @@ generate_weight_percentile <- function(sex = c("Male", "Female"), age = 15, weig
 
   sex_use <- match.arg(sex, c("Male", "Female"), several.ok = FALSE)
 
-  bmi_data <- subset(x = weight_percentiles, sex_dsc == sex_use)
+  bmi_data <- subset(x = bmicalc::weight_percentiles, sex_dsc == sex_use)
 
   age_dif <- (bmi_data$age_in_years-age)
 
