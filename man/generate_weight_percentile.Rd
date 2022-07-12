@@ -23,3 +23,9 @@ generate_weight_percentile(
 \description{
 Generate Weight Percentile
 }
+\examples{
+generate_weight_percentile("M", 12, 50)
+generate_weight_percentile("F", 12, 50)
+generate_weight_percentile("Female", 12, 50)
+generate_weight_percentile("female", 12, 50)
+}

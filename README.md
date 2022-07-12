@@ -19,8 +19,8 @@ You can install the development version of bmicalc from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("wf-id/bmicalc")
+# install.packages("remotes")
+remotes::install_github("wf-id/bmicalc")
 ```
 
 ## Example

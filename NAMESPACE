@@ -2,4 +2,5 @@
 
 export(generate_weight_percentile)
 importFrom(stats,approxfun)
+importFrom(tools,toTitleCase)
 importFrom(utils,head)

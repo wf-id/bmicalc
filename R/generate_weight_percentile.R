@@ -4,11 +4,17 @@
 #' @param age a numeric indicating the age in years of the individual
 #' @param weight a numeric indicating the weight in kilograms of the individual
 #' @param verbose a logical indicating if messages should be printed
+#' @importFrom tools toTitleCase
+#' @examples
+#' generate_weight_percentile("M", 12, 50)
+#' generate_weight_percentile("F", 12, 50)
+#' generate_weight_percentile("Female", 12, 50)
+#' generate_weight_percentile("female", 12, 50)
 #' @export
 
 generate_weight_percentile <- function(sex = c("Male", "Female"), age = 15, weight = 50, verbose = TRUE){
 
-  sex_use <- match.arg(sex, c("Male", "Female"), several.ok = FALSE)
+  sex_use <- match.arg(tools::toTitleCase(sex), c("Male", "Female"), several.ok = FALSE)
 
   bmi_data <- subset(x = bmicalc::weight_percentiles, sex_dsc == sex_use)
 
