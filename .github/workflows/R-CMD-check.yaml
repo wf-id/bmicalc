@@ -43,6 +43,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r@v1
         with:
+          timeout-minutes: 30
           r-version: ${{ matrix.config.r }}
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
